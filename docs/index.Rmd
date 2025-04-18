@@ -1,0 +1,31 @@
+---
+title: "Rolv Desktop Documentation"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+date: "2025-04-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Welcome to RolvDesktop
+With this app, you can seamlessly ask and retrieve code from our chat system, run it, and debug it alongside our powerful Large Language Model agent. Whether you’re testing snippets, troubleshooting errors, or refining your code, our AI assistant is here to collaborate with you every step of the way.
+
+Before we begin, we need to determine which system you’re using:
+
+🖥 Currently we are supporting the following systems
+- Ubuntu
+- Red Hat
+- Windows
+- Mac OS
+To make use of our app, we first have to make sure that you have some prerequisites installed on your system. But no worries, we are guiding you every step of the way! Let’s get started! 💡
+
+## Ubuntu
+Installing R
+
+
+TBC
