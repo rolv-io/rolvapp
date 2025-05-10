@@ -1,5 +1,5 @@
 ---
-title: "Rolv Desktop Documentation (v1.0.0)"
+title: "Rolv Desktop Documentation (v1.1.0)"
 date: "2025-05-12"
 output:
   html_document:
@@ -64,7 +64,7 @@ Rolv desktop app is available on the following operating systems:
 # Installation Instructions
 ## System Requirements
 Any hardware that is able to run a recent chrome browser should be able to run the desktop app.
-However for smooth performance we have the following reccomnedations:
+However for smooth performance we have the following recommendations:
 
 - **CPU**: Multi-core processor (2 GHz+).
 - **RAM**: 8 GB+ for resource-heavy apps (e.g., IDEs, communication tools).
@@ -75,7 +75,7 @@ However for smooth performance we have the following reccomnedations:
 ## Install the dependencies
 Currently, the only external dependency that that doesn't come with the app is **R**. R is a free, 
 open-source programming language and software environment primarily used for statistical 
-computing and data analysis. Currently, we need this depency to perform data analysis tasks.
+computing and data analysis. Currently, we need this dependency to perform data analysis tasks.
 If you already have R installed, you can skip this step. It is probably a good idea
 to use a latest version of R though.
 
@@ -497,7 +497,8 @@ It is advised to keep an up-to-date version.
 Manual Update: You can also check latest releases manually and update your app.
 
 # Documentation for older versions
-TBD 
+Currently no documentation exists for older versions. We will add those to this 
+section as we release new versions.
 
 
 
