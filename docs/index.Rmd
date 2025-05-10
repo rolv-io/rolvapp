@@ -1,6 +1,6 @@
 ---
 title: "Rolv Desktop Documentation (v1.0.0)"
-date: "2025-02-12"
+date: "2025-05-12"
 output:
   html_document:
     toc: true
@@ -400,7 +400,8 @@ Scripting/API usage, plugins, or command-line tools.
 
 
 ## How do I update the app?
-The new versions are released via github releases.
+The new versions are released via github releases. The app will check if there 
+are new versions available everytime you start it.
 
 ## Does it work offline?
 The app can not work offline as it requires connection to chat API.
@@ -475,14 +476,25 @@ sudo rm -rf /Applications/RolvDesktop.app
 # Support & Feedback
 ## Contact: Email, forum, or GitHub link for support.
 
-## Bug Reports: Template for submitting issues.
+General contact: hello@rolv.io
+
+Community forum: https://github.com/rolv-io/rolvapp/discussions/
+
+## Bug Reports:
+
+You can open bug reports here: https://github.com/rolv-io/rolvapp/issues
+
+Please include screenshots and a detailed account of what's happening as well as 
+toy data and prompts that reproduces the problem. Otherwise, we can't help you.
 
 ## Feature Requests: Process for suggesting improvements.
+You can request features or share your ideas here: https://github.com/rolv-io/rolvapp/discussions/categories/ideas-feature-requests
 
 # Updates & Maintenance
-Auto-Update: How the app handles updates (if applicable).
+Auto-Update: App checks if there are new versions every time you restart it.
+It is advised to keep an up-to-date version.
 
-Manual Update: Instructions for downloading new versions.
+Manual Update: You can also check latest releases manually and update your app.
 
 # Documentation for older versions
 TBD 
