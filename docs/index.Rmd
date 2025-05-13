@@ -507,6 +507,17 @@ runs and chat with ROLV to ask questions or request modifications. However, if w
 of modifications we want to make, we can also edit the code ourselves. 
 
 
+## Ask A Human Feature: 
+
+AI gets you far, but sometimes you need human expertise. When you’re stuck, we provide an option to connect with data analysis experts through our platform. As of currently, this feature will only work when you are in the main chat interface. If you are chatting with our AI assistant, but you are stuck on a problem, click on the human button on the top right corner of the screen:
+
+![Location of ask a human button](ask_human_button.png)
+
+
+Clicking this will open the popup menu below. Here you can write your question about the currently open chat, and this will send you message to our data analysis experts together with your chat history. We will then get back to you as soon as possible!
+
+![Ask a human pop-up](ask_human_html.png)
+
 # FAQs & Troubleshooting
 
 
