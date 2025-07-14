@@ -344,7 +344,7 @@ your R resides in your system:
       This should return the location of Rscript. Copy this path so we can paste this path into RolvDesktop.
     - On Windows type in the following command:
       ```{r eval=F}
-      Get-ChildItem -Path C:\ -Recurse -Filter "Rscript.exe" -ErrorAction SilentlyContinue
+       Get-ChildItem -Path C:\ -Recurse -Filter "Rscript.exe" -ErrorAction SilentlyContinue
       ```
     This should return the location of Rscript. However, we cannot just paste the path in there as is.
     Ensure that the C:\ is deleted, and all the backslashes \ are changed to forward slases / before
