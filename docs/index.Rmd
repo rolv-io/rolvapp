@@ -1,6 +1,6 @@
 ---
-title: "Rolv Desktop Documentation (v1.1.1)"
-date: "2025-07-10"
+title: "Rolv Desktop Documentation (v1.1.2)"
+date: "2025-08-08"
 output:
   html_document:
     toc: true
