@@ -23,16 +23,16 @@ Rolv is an AI-powered research assistant designed specifically for the life scie
 
 
 ## ✨ Core features
-- **AI-Assisted Data Analysis**: Ask data analysis questions, rolv desktop is integrated with your data (e.g., *"Give me differentially expressed genes in this file and plot a heatmap"*).  
-- **Local Data Analysis**: Your data stays secure on your device—no cloud dependency for analysis. 
-- **PubMed integration**: Get PubMed backed answers to your queries.  (e.g., *"What are the binding partners of TGFbeta ?"*).  
-- **Dataset Search Integration**: Find the relevant datasets you need for your analysis.  (e.g., *"Give me TGFbeta ChIP-seq datasets ?"*). 
-- **Create AI-Assisted Analysis Workflows**: Data analysis is not linear; build complex workflows using the graph interface. 
+- **AI-Assisted Data Analysis**: Ask data analysis questions, rolv desktop is integrated with your data (e.g., *"Give me differentially expressed genes in this file and plot a heatmap"*).
+- **Local Data Analysis**: Your data stays secure on your device—no cloud dependency for analysis.
+- **PubMed integration**: Get PubMed backed answers to your queries.  (e.g., *"What are the binding partners of TGFbeta ?"*).
+- **Dataset Search Integration**: Find the relevant datasets you need for your analysis.  (e.g., *"Give me TGFbeta ChIP-seq datasets ?"*).
+- **Create AI-Assisted Analysis Workflows**: Data analysis is not linear; build complex workflows using the graph interface.
 - **Ask A Human Feature**: AI gets you far, but sometimes you need human expertise. When you're stuck, connect with data analysis experts through our platform.
 
 
 
-## 📥 How to get access 
+## 📥 How to get access
 Without having access to rolv platform online you won't be able to use the rolv
 desktop app.
 - Request access to the platform here https://www.rolv.io/access
@@ -73,8 +73,8 @@ However, for smooth performance we have the following recommendations:
 
 
 ## Install the dependencies
-Currently, the only external dependency that doesn't come with the app is **R**. R is a free, 
-open-source programming language and software environment primarily used for statistical 
+Currently, the only external dependency that doesn't come with the app is **R**. R is a free,
+open-source programming language and software environment primarily used for statistical
 computing and data analysis. Currently, we need this dependency to perform data analysis tasks.
 If you already have R installed, you can skip this step. It is probably a good idea
 to use a latest version of R, though.
@@ -114,11 +114,11 @@ To install R on a Mac system, follow these steps:
 1. Go to the official R website: https://cran.r-project.org.
   -   Click on “Download R for macOS”.
   -   Choose the latest .pkg file under “Latest release” and download it.
-  
+
 2. Install R
   - Open the downloaded .pkg file.
   - Follow the on-screen installation instructions.
-  
+
 3.  Verify the Installation
 R should now be installed on your device. To verify its installation, open the terminal (Cmd + Space, type
 in terminal and press Enter). In the terminal, run the following command:
@@ -201,7 +201,7 @@ sudo dnf install qpdf-devel
 
 
 ## Installing the app
-Once R is installed, we’re ready to install _rolv_ desktop app 
+Once R is installed, we’re ready to install _rolv_ desktop app
 
 ### Windows 11
 
@@ -222,7 +222,7 @@ can move on to the next chapter, where we will dive deeper into the features and
 _rolv_ desktop app interface. Enjoy exploring!
 
 #### Mac OS
-For mac os, you should download the file called `rolvdesktop-darwin-x64-1.1.1.zip`. 
+For mac os, you should download the file called `rolvdesktop-darwin-x64-1.1.1.zip`.
 Afterwards, follow the steps below:
 
 1. Move the rolvdesktop-darwin-x64-1.1.1.zip file to the directory where you want it to be installed.
@@ -235,7 +235,7 @@ Congratulations! You’ve successfully installed _rolv_ desktop app! Now you’r
 can move on to the next chapter, where we will dive deeper into the features and how to navigate the
 _rolv_ desktop app interface. Enjoy exploring!
 
-### Ubuntu 
+### Ubuntu
 Once R is installed, we’re ready to install _rolv_ desktop app. You should download
 a file named rolvdesktop_1.1.1_amd64.deb.  Now, let’s walk through the steps to install _rolv_ desktop app:
 
@@ -300,7 +300,7 @@ trouble opening the app because of security reasons, follow the steps below:
   Click this option. The app should now open.
   - **For Windows users:** Right-click on the app’s icon and look for “Run as Administrator”. Click this
   option. The app should now open.
-  
+
 Once the app is opened, the first thing to do is to log in with your username and password! Fill in, and press the login button. If you have a valid account, you should now be logged in and see the chat screen. If you don't have access to the platform please see the section called [📥 How to get access].
 
 ## login window
@@ -322,7 +322,7 @@ working.
 
 ## If R is not Available or can not be found
 
-If R is not available or can not be found at default locations, you will see an error pop up. 
+If R is not available or can not be found at default locations, you will see an error pop up.
 ![R not found pop up](set_r_path_popup.png)
 
 
@@ -334,13 +334,13 @@ your R resides in your system:
   - On Mac: Press Cmd + Space, type in Terminal, and press Enter.
   - On Linux: Press Ctrl + Alt + T to open the terminal.
   - On Windows: open PowerShell by pressing Win + X and selecting Windows PowerShell.
-  
+
 2. Now, we look for the Rscript file within the system:
-  
+
     - On Mac/Linux type in the following command:
-    
+
       `whereis Rscript`
-    
+
       This should return the location of Rscript. Copy this path so we can paste this path into RolvDesktop.
     - On Windows type in the following command:
       ```{r eval=F}
@@ -349,8 +349,8 @@ your R resides in your system:
     This should return the location of Rscript. However, we cannot just paste the path in there as is.
     Ensure that the C:\ is deleted, and all the backslashes \ are changed to forward slases / before
     pasting the path in the app.
-  
-  
+
+
 Once you have located the path of Rscript, we can now let RolvDesktop know. To set the R path, go to
 Set R path in the Menu bar. Then, press set path of R executable and select paste path manually.
 A pop-up should now appear where you can paste the path to Rscript.
@@ -364,19 +364,19 @@ If everything is OK, you should now be able to see the main interface and should
 
 
 # Configuration & Preferences
-Currently only important configuration you have to make is setting a working directory 
-The app will look for the data mentioned in your prompts/questions in this directory. 
-This is explained in detail below in the next section. 
+Currently only important configuration you have to make is setting a working directory
+The app will look for the data mentioned in your prompts/questions in this directory.
+This is explained in detail below in the next section.
 
 The other options there are as follows (and also explained below):
 
-  - **Activate auto execution** : any code that will be generated by rolv will immediately be executed automatically. 
+  - **Activate auto execution** : any code that will be generated by rolv will immediately be executed automatically.
   - **Activate file header addition** : This will add the first two lines of any files you mention in your question and send it to rolv app.
   - **Activate self-correct** : Currently not functional. It is intended to feed execution errors automatically to LLM and get corrected code. However, same functionality can be achieved on the chat interface by asking to correct the code when you receive an error.
 
 # Usage Guide
 ## How to use the basic chat interface
-To give you an example of the basic usage, we ask the bot to simulate data and 
+To give you an example of the basic usage, we ask the bot to simulate data and
 do some basic analysis. Here is how it would look like:
 ![simulation question](question_pax6_expression.png)
 
@@ -443,7 +443,7 @@ As you can see from the above screenshot, a whole list of articles is returned w
 There are also links provided to the articles so you can verify the information yourself, and use proper references to the actual articles
 which the information came from!
 
-## Doing data set search 
+## Doing data set search
 
 
 ROLV can also help you find relevant datasets directly within the app by integrating with public repositories such as GEO. This makes it easy to identify experimental data that matches your research context (e.g., tissue type, species, perturbation, or technology used).
@@ -461,7 +461,7 @@ As shown above, ROLV will return a list of matching datasets with some additiona
 
 ROLV allows you to build flexible, modular workflows that combine multiple data analysis steps—without having to manually code each component. Using the graph interface, you can create, edit, and execute complex pipelines visually or via chat.
 
-To begin building such a pipeline, we can click the graph interface icon on the sidebar. This will open a graph interface containing a single node. From this node, we can either paste in some pre-existing code into the code interface, or start chatting via the chat with me button. 
+To begin building such a pipeline, we can click the graph interface icon on the sidebar. This will open a graph interface containing a single node. From this node, we can either paste in some pre-existing code into the code interface, or start chatting via the chat with me button.
 
 Now that we are all set, let’s start the conversation, and ask the same question we asked before about our file
 gene_expression.txt:
@@ -469,7 +469,7 @@ gene_expression.txt:
 ![Graph interface request](graph_interface_quest.png)
 
 We get back an answer with code again! However, now instead of the button Execute code, we can see two other buttons on top of the answer: Copy and Replace. To understand what these buttons do, you can open the coding interface of the node by pressing the Show code button. For now, this is empty. However,watch what happens when you now click the Copy or Replace button. The code is copied over to the coding
-interface, and now you can click the Execute code button to execute it and see the results! Here you can also change any existing code, or even make entire snippets yourself. 
+interface, and now you can click the Execute code button to execute it and see the results! Here you can also change any existing code, or even make entire snippets yourself.
 
 
 ![Graph interface request](graph_interface_codeint.png)
@@ -493,7 +493,7 @@ create an empty node and chat about the type of analysis you want done after you
 
 ![New node options](new_node_options.png)
 
-As you can see in the above image, we have 2 options to choose from: 
+As you can see in the above image, we have 2 options to choose from:
 
 - Perform hierarchical clustering
 - Create a heatmap visualization
@@ -508,10 +508,20 @@ code present, showing us how to create a heatmap. When we now press Execute code
 parental nodes (in this case our gene expression node) is first run, after which the code within the node itself
 is run. If we open the chat interface by pressing Chat with me, we can view the full coding analysis as it
 runs and chat with ROLV to ask questions or request modifications. However, if we know exactly what type
-of modifications we want to make, we can also edit the code ourselves. 
+of modifications we want to make, we can also edit the code ourselves.
 
+Once you have built your workflow in the graph interface, you can now export the entire graph as an R Markdown (.Rmd) file or as a PDF for easy sharing and reproducibility.
 
-## Ask A Human Feature: 
+You will see two new buttons in the graph interface toolbar:
+![Export buttons](export_buttons.png)
+
+- Export as RMD – Saves the full workflow as an R Markdown file, including all the code from each node in the correct execution order along with any plots or figures generated by those steps. This file can be opened in RStudio or any text editor to reproduce the entire analysis step-by-step.
+
+- Export as PDF – Saves a PDF version of the workflow, which is ideal for sharing with collaborators or including in reports. The PDF contains the combined code, textual outputs, and all generated plots, making it a ready-to-read summary of your analysis.
+
+When exporting as an RMD file, you can continue editing or running the analysis outside of ROLV. The PDF export, on the other hand, is static. It is perfect for documentation or presentations.
+
+## Ask A Human Feature:
 
 AI gets you far, but sometimes you need human expertise. When you’re stuck, we provide an option to connect with data analysis experts through our platform. As of currently, this feature will only work when you are in the main chat interface. If you are chatting with our AI assistant, but you are stuck on a problem, click on the human button on the top right corner of the screen:
 
@@ -526,7 +536,7 @@ Clicking this will open the popup menu below. Here you can write your question a
 
 
 ## How do I update the app?
-The new versions are released via GitHub releases. The app will check if there 
+The new versions are released via GitHub releases. The app will check if there
 are new versions available every time you start it.
 
 ## Does it work offline?
@@ -610,7 +620,7 @@ Community forum: https://github.com/rolv-io/rolvapp/discussions/
 
 You can open bug reports here: https://github.com/rolv-io/rolvapp/issues
 
-Please include screenshots and a detailed account of what's happening as well as 
+Please include screenshots and a detailed account of what's happening as well as
 toy data and prompts that reproduces the problem. Otherwise, we can't help you.
 
 ## Feature Requests: Process for suggesting improvements.
@@ -623,7 +633,7 @@ It is advised to keep an up-to-date version.
 Manual Update: You can also check latest releases manually and update your app.
 
 # Documentation for older versions
-Currently no documentation exists for older versions. We will add those to this 
+Currently no documentation exists for older versions. We will add those to this
 section as we release new versions.
 
 
