@@ -21,9 +21,9 @@ Rolv is your AI-powered research assistant for life sciences! It provides a new 
 - Download the Rolv desktop app and start analyzing. See releases [here](https://github.com/rolv-io/rolvapp/releases).
 
 --- 
-### **Check the docs**  
+### **:blue_book:Check the docs**  
 See the docs [here](https://rolv-io.github.io/rolvapp/)
 
 --- 
-### **See it in action**  
+### **:golf:See it in action**  
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yK762OUeaqY/0.jpg)](https://www.youtube.com/watch?v=yK762OUeaqY)
