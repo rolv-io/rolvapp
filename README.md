@@ -26,4 +26,5 @@ See the docs [here](https://rolv-io.github.io/rolvapp/)
 
 --- 
 ### **:golf:See it in action**  
+Click on the YouTube video below to view!
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yK762OUeaqY/0.jpg)](https://www.youtube.com/watch?v=yK762OUeaqY)
