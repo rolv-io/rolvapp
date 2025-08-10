@@ -23,3 +23,7 @@ Rolv is your AI-powered research assistant for life sciences! It provides a new 
 --- 
 ### **Check the docs**  
 See the docs [here](https://rolv-io.github.io/rolvapp/)
+
+--- 
+### **See it in action**  
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yK762OUeaqY/0.jpg)](https://www.youtube.com/watch?v=yK762OUeaqY)
