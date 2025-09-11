@@ -374,6 +374,16 @@ The other options there are as follows (and also explained below):
   - **Activate file header addition** : This will add the first two lines of any files you mention in your question and send it to rolv app.
   - **Activate self-correct** : Currently not functional. It is intended to feed execution errors automatically to LLM and get corrected code. However, same functionality can be achieved on the chat interface by asking to correct the code when you receive an error.
 
+# Shortcuts
+The FocusPaste shortcut focuses the app and pastes clipboard content into the chat input field.
+
+- **Features**:
+
+ - Combines window focus and paste in one action
+ - Customizable through Menu Bar → Shortcuts → Focus and Paste
+
+![focus paste](focus_paste.png)
+
 # Usage Guide
 ## How to use the basic chat interface
 To give you an example of the basic usage, we ask the bot to simulate data and
