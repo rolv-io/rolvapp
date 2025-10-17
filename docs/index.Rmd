@@ -1,6 +1,6 @@
 ---
-title: "Rolv Desktop Documentation (v1.1.2)"
-date: "2025-08-08"
+title: "Rolv Desktop Documentation (v1.2.0)"
+date: "2025-10-17"
 output:
   html_document:
     toc: true
@@ -205,9 +205,9 @@ Once R is installed, we’re ready to install _rolv_ desktop app
 
 ### Windows 11
 
-For windows installation, you should download a file named __rolvdesktop-1.1.1 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
+For windows installation, you should download a file named __rolvdesktop-1.2.0 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
 
-1. Locate the __rolvdesktop-1.1.1 Setup.exe__ file on your computer.
+1. Locate the __rolvdesktop-1.2.0 Setup.exe__ file on your computer.
 
 2. Double-click the .exe file. This should start the installation process.
 
@@ -241,7 +241,7 @@ a file named rolvdesktop_1.1.1_amd64.deb.  Now, let’s walk through the steps t
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded rolvdesktop_1.1.1_amd64.deb. This can be done by:
+2. Move to the directory in which you downloaded rolvdesktop_1.2.0_amd64.deb. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -250,7 +250,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo apt install ./rolvdesktop_1.1.1_amd64.deb
+sudo apt install ./rolvdesktop_1.2.0_amd64.deb
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
@@ -269,7 +269,7 @@ a file named __rolvdesktop-1.1.1-1.x86_64.rpm__.Now, let’s walk through the st
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded __rolvdesktop-1.1.1-1.x86_64.rpm__. This can be done by:
+2. Move to the directory in which you downloaded __rolvdesktop-1.2.0-1.x86_64.rpm__. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -277,7 +277,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo rpm -ivh ./rolvdesktop-1.1.1-1.x86_64.rpm
+sudo rpm -ivh ./rolvdesktop-1.2.0-1.x86_64.rpm
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
@@ -375,14 +375,29 @@ The other options there are as follows (and also explained below):
   - **Activate self-correct** : Currently not functional. It is intended to feed execution errors automatically to LLM and get corrected code. However, same functionality can be achieved on the chat interface by asking to correct the code when you receive an error.
 
 # Shortcuts
-The FocusPaste shortcut focuses the app and pastes clipboard content into the chat input field.
+## Focus Paste
+The *FocusPaste* shortcut focuses the app and pastes clipboard content into the chat input field.
 
 - **Features**:
-
- - Combines window focus and paste in one action
- - Customizable through Menu Bar → Shortcuts → Focus and Paste
+- Combines window focus and paste in one action
+- Customizable through Menu Bar → Shortcuts → Focus and Paste
 
 ![focus paste](focus_paste.png)
+
+
+
+
+## Companion Window
+The *Companion Window* feature allows users to open a mini chat window while keeping their main workspace active.
+
+-**Features**:
+- Opens a detached mini chat that interacts with the main Rolv Desktop window  
+- Includes a context panel for editing and reviewing messages  
+- Starts a new chat session each time it’s opened  
+- Accessible from Menu Bar → Shortcuts → Companion Window (Ctrl + Shift + P)
+
+![companion window](companion-window.png)
+
 
 # Usage Guide
 ## How to use the basic chat interface
