@@ -7,7 +7,8 @@ Rolv is your AI-powered research assistant for life sciences! It provides a new 
 ---  
 
 ### **✨ Core Features**  
-- **AI-Assisted Data Analysis**: Ask data analysis questions, rolv desktop is integrated with your data (e.g., *"Give me differentially expressed genes in this file and plot a heatmap"*).  
+- **AI-Assisted Data Analysis**: Ask data analysis questions, rolv desktop is integrated with your data (e.g., *"Give me differentially expressed genes in this file and plot a heatmap"*).
+- **Intelligent Agent System**: Unified multi-agent framework that coordinates PubMed, GEO, and analysis agents for end-to-end workflow automation. 
 - **Local Data Analysis**: Your data stays secure on your device—no cloud dependency for analysis. 
 - **PubMed integration**: Get PubMed backed answers to your queries.  (e.g., *"What are the binding partners of TGFbeta ?"*).  
 - **Dataset Search Integration**: Find the relevant datasets you need for your analysis.  (e.g., *"Give me TGFbeta ChIP-seq datasets ?"*). 
