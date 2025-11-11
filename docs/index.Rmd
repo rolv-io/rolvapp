@@ -391,9 +391,9 @@ The *FocusPaste* shortcut focuses the app and pastes clipboard content into the 
 The *Companion Window* feature allows users to open a mini chat window while keeping their main workspace active.
 
 -**Features**:
-- Opens a detached mini chat that interacts with the main Rolv Desktop window  
-- Includes a context panel for editing and reviewing messages  
-- Starts a new chat session each time it’s opened  
+- Opens a detached mini chat that interacts with the main Rolv Desktop window
+- Includes a context panel for editing and reviewing messages
+- Starts a new chat session each time it’s opened
 - Accessible from Menu Bar → Shortcuts → Companion Window (Ctrl + Shift + P)
 
 ![companion window](companion-window.png)
@@ -556,6 +556,22 @@ AI gets you far, but sometimes you need human expertise. When you’re stuck, we
 Clicking this will open the popup menu below. Here you can write your question about the currently open chat, and this will send you message to our data analysis experts together with your chat history. We will then get back to you as soon as possible!
 
 ![Ask a human pop-up](ask_human_html.png)
+
+## Rolv's Intelligent Agent
+
+The Intelligent Agent enables autonomous task handling across ROLV Desktop, allowing dynamic
+decision-making and automated execution of queries (e.g., PubMed search, GEO dataset retrieval,
+or code generation).
+
+Locate the Agent icon on the left and click it to activate the system.
+Once enabled, the agent will automatically detect the context of your query, route it to
+ the appropriate sub-agent, and stream live responses such as “Analyzing query…” or “
+ Executing PubMed agent…” directly within the chat.
+
+When disabled, queries will be processed in manual mode — without orchestration or sub-agent routing.
+
+![Intelligent Agent](Intelligent Agent.png)
+![Agent query](Agent query.png)
 
 # FAQs & Troubleshooting
 
