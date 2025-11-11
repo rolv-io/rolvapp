@@ -1,6 +1,6 @@
 ---
-title: "Rolv Desktop Documentation (v1.2.0)"
-date: "2025-10-17"
+title: "Rolv Desktop Documentation (v2.0.0)"
+date: "2025-11-11"
 output:
   html_document:
     toc: true
@@ -28,6 +28,7 @@ Rolv is an AI-powered research assistant designed specifically for the life scie
 - **PubMed integration**: Get PubMed backed answers to your queries.  (e.g., *"What are the binding partners of TGFbeta ?"*).
 - **Dataset Search Integration**: Find the relevant datasets you need for your analysis.  (e.g., *"Give me TGFbeta ChIP-seq datasets ?"*).
 - **Create AI-Assisted Analysis Workflows**: Data analysis is not linear; build complex workflows using the graph interface.
+- **Intelligent Agent System**: Unified multi-agent framework that coordinates PubMed, GEO, and analysis agents for end-to-end workflow automation.
 - **Ask A Human Feature**: AI gets you far, but sometimes you need human expertise. When you're stuck, connect with data analysis experts through our platform.
 
 
@@ -205,9 +206,9 @@ Once R is installed, we’re ready to install _rolv_ desktop app
 
 ### Windows 11
 
-For windows installation, you should download a file named __rolvdesktop-1.2.0 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
+For windows installation, you should download a file named __rolvdesktop-2.0.0 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
 
-1. Locate the __rolvdesktop-1.2.0 Setup.exe__ file on your computer.
+1. Locate the __rolvdesktop-2.0.0 Setup.exe__ file on your computer.
 
 2. Double-click the .exe file. This should start the installation process.
 
@@ -222,10 +223,10 @@ can move on to the next chapter, where we will dive deeper into the features and
 _rolv_ desktop app interface. Enjoy exploring!
 
 #### Mac OS
-For mac os, you should download the file called `rolvdesktop-darwin-x64-1.1.1.zip`.
+For mac os, you should download the file called `rolvdesktop-darwin-x64-2.0.0.zip`.
 Afterwards, follow the steps below:
 
-1. Move the rolvdesktop-darwin-x64-1.1.1.zip file to the directory where you want it to be installed.
+1. Move the rolvdesktop-darwin-x64-2.0.0.zip file to the directory where you want it to be installed.
 
 2. Double-click the .zip file to extract it.
 
@@ -237,11 +238,11 @@ _rolv_ desktop app interface. Enjoy exploring!
 
 ### Ubuntu
 Once R is installed, we’re ready to install _rolv_ desktop app. You should download
-a file named rolvdesktop_1.1.1_amd64.deb.  Now, let’s walk through the steps to install _rolv_ desktop app:
+a file named rolvdesktop_2.0.0_amd64.deb.  Now, let’s walk through the steps to install _rolv_ desktop app:
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded rolvdesktop_1.2.0_amd64.deb. This can be done by:
+2. Move to the directory in which you downloaded rolvdesktop_2.0.0_amd64.deb. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -250,7 +251,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo apt install ./rolvdesktop_1.2.0_amd64.deb
+sudo apt install ./rolvdesktop_2.0.0_amd64.deb
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
@@ -265,11 +266,11 @@ RolvDesktop interface. Enjoy exploring!
 
 ### Fedora
 Once R is installed, we’re ready to install RolvDesktop. You should download
-a file named __rolvdesktop-1.1.1-1.x86_64.rpm__.Now, let’s walk through the steps to install RolvDesktop:
+a file named __rolvdesktop-2.0.0-1.x86_64.rpm__.Now, let’s walk through the steps to install RolvDesktop:
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded __rolvdesktop-1.2.0-1.x86_64.rpm__. This can be done by:
+2. Move to the directory in which you downloaded __rolvdesktop-2.0.0-1.x86_64.rpm__. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -277,7 +278,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo rpm -ivh ./rolvdesktop-1.2.0-1.x86_64.rpm
+sudo rpm -ivh ./rolvdesktop-2.0.0-1.x86_64.rpm
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
