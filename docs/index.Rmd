@@ -1,6 +1,6 @@
 ---
-title: "Rolv Desktop Documentation (v2.0.0)"
-date: "2025-11-11"
+title: "Rolv Desktop Documentation (v2.1.3)"
+date: "2026-01-21"
 output:
   html_document:
     toc: true
@@ -206,9 +206,9 @@ Once R is installed, we’re ready to install _rolv_ desktop app
 
 ### Windows 11
 
-For windows installation, you should download a file named __rolvdesktop-2.0.0 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
+For windows installation, you should download a file named __rolvdesktop-2.1.3 Setup.exe__.Now, let’s walk through the steps to install _rolv_ desktop app:
 
-1. Locate the __rolvdesktop-2.0.0 Setup.exe__ file on your computer.
+1. Locate the __rolvdesktop-2.1.3 Setup.exe__ file on your computer.
 
 2. Double-click the .exe file. This should start the installation process.
 
@@ -223,10 +223,10 @@ can move on to the next chapter, where we will dive deeper into the features and
 _rolv_ desktop app interface. Enjoy exploring!
 
 #### Mac OS
-For mac os, you should download the file called `rolvdesktop-darwin-x64-2.0.0.zip`.
+For mac os, you should download the file called `rolvdesktop-darwin-x64-2.1.3.zip`.
 Afterwards, follow the steps below:
 
-1. Move the rolvdesktop-darwin-x64-2.0.0.zip file to the directory where you want it to be installed.
+1. Move the rolvdesktop-darwin-x64-2.1.3.zip file to the directory where you want it to be installed.
 
 2. Double-click the .zip file to extract it.
 
@@ -238,11 +238,11 @@ _rolv_ desktop app interface. Enjoy exploring!
 
 ### Ubuntu
 Once R is installed, we’re ready to install _rolv_ desktop app. You should download
-a file named rolvdesktop_2.0.0_amd64.deb.  Now, let’s walk through the steps to install _rolv_ desktop app:
+a file named rolvdesktop_2.1.3_amd64.deb.  Now, let’s walk through the steps to install _rolv_ desktop app:
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded rolvdesktop_2.0.0_amd64.deb. This can be done by:
+2. Move to the directory in which you downloaded rolvdesktop_2.1.3_amd64.deb. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -251,7 +251,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo apt install ./rolvdesktop_2.0.0_amd64.deb
+sudo apt install ./rolvdesktop_2.1.3_amd64.deb
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
@@ -266,11 +266,11 @@ RolvDesktop interface. Enjoy exploring!
 
 ### Fedora
 Once R is installed, we’re ready to install RolvDesktop. You should download
-a file named __rolvdesktop-2.0.0-1.x86_64.rpm__.Now, let’s walk through the steps to install RolvDesktop:
+a file named __rolvdesktop-2.1.3-1.x86_64.rpm__.Now, let’s walk through the steps to install RolvDesktop:
 
 1. Open the terminal ( press Ctrl + Alt + T or search for ‘Terminal’ in your applications menu)
 
-2. Move to the directory in which you downloaded __rolvdesktop-2.0.0-1.x86_64.rpm__. This can be done by:
+2. Move to the directory in which you downloaded __rolvdesktop-2.1.3-1.x86_64.rpm__. This can be done by:
 
 ```bash
 cd /path/to/directory/
@@ -278,7 +278,7 @@ cd /path/to/directory/
 
 3. Run the following command and fill in your system password:
 ```bash
-sudo rpm -ivh ./rolvdesktop-2.0.0-1.x86_64.rpm
+sudo rpm -ivh ./rolvdesktop-2.1.3-1.x86_64.rpm
 ```
 
 After this, RolvDesktop should be installed! You can open the app by searching for ‘rolvdesktop’ in your
@@ -360,7 +360,7 @@ by pressing Test R path again.
 
 If everything is OK, you should now be able to see the main interface and should be able to start your journey.
 
-![chat interface](chat_interface.png)
+![chat interface](chat interface.jpg)
 
 
 
@@ -384,7 +384,6 @@ The *FocusPaste* shortcut focuses the app and pastes clipboard content into the 
 - Customizable through Menu Bar → Shortcuts → Focus and Paste
 
 ![focus paste](focus_paste.png)
-
 
 
 
@@ -416,16 +415,16 @@ And here is the result of the simulation and analysis:
 While simulating data can be useful, analyzing real-world data is far more insightful. Fortunately, ROLV
 can generate code based on files in your system. For example, if you have gene expression data stored in
 gene_expression.txt, you can inform ROLV about the file, and it will tailor its code accordingly. To specify
-the file’s location, simply open the Chat options menu from the left sidebar. A dropdown menu opens,
-where we can press Select directory:
+the file’s location, simply open the Chat settings menu from the left sidebar. A a popup menu opens.
 
-![Select directory](select_directory.png)
+![Side bar](side bar.jpg)
+
+From the popup menu, select the directory where your files are located. Any subdirectories within that folder will also be included in the search.
+![Chat settings pop-up](select directory.jpg)
 
 
 
-
-A file dialog will open, from which you can select the directory in which your files are. Any subdirectories
-within that directory will also be searched. Once we have done this, we have a few other options that we can use.
+Once we have done this, we have a few other options that we can use.
 When we turn on Activate auto execution, any code that will be generated by ROLV will immediately
 be run. We can also turn on Activate file header addition. This will add the first two lines of any files
 you mention in your question and send it to ROLV. For now, lets turn on Activate file header addition
@@ -551,12 +550,12 @@ When exporting as an RMD file, you can continue editing or running the analysis 
 
 AI gets you far, but sometimes you need human expertise. When you’re stuck, we provide an option to connect with data analysis experts through our platform. As of currently, this feature will only work when you are in the main chat interface. If you are chatting with our AI assistant, but you are stuck on a problem, click on the human button on the top right corner of the screen:
 
-![Location of ask a human button](ask_human_button.png)
+![Location of ask a human button](Ask human.jpg)
 
 
 Clicking this will open the popup menu below. Here you can write your question about the currently open chat, and this will send you message to our data analysis experts together with your chat history. We will then get back to you as soon as possible!
 
-![Ask a human pop-up](ask_human_html.png)
+![Ask a human pop-up](Ask a human.jpg)
 
 ## Rolv's Intelligent Agent
 
@@ -572,7 +571,10 @@ Once enabled, the agent will automatically detect the context of your query, rou
 When disabled, queries will be processed in manual mode — without orchestration or sub-agent routing.
 
 ![Intelligent Agent](Intelligent Agent.png)
+
 ![Agent query](Agent query.png)
+
+
 
 # FAQs & Troubleshooting
 
