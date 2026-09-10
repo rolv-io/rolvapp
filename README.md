@@ -1,5 +1,7 @@
-# Rolv desktop app [LEGACY - not maintained]
+
 # Version 3 is OUT [here](https://github.com/rolv-io/rolv-releases/) in the new repository [Maintained new version]
+---  
+# Rolv desktop app [LEGACY - not maintained]
 ### *What is rolv: igniting the future of AI-driven life science research.🔥*  
 
 Rolv is your AI-powered research assistant for life sciences! It provides a new way to accelerate data analysis, literature reviews, and hypothesis generation.
